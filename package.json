@@ -1,0 +1,46 @@
+{
+    "name": "slush-bresa",
+    "description": "Generate a simple web project usin bresa",
+    "version": "0.1.0",
+    "homepage": "https://github.com/brunolimawd/slush-bresa",
+    "author": {
+        "name": "Bruno Lima",
+        "email": "brunolimawd@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/brunolimawd/slush-bresa.git"
+    },
+    "bugs": {
+        "url": "https://github.com/brunolimawd/slush-bresa/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/brunolimawd/slush-bresa/blob/master/LICENSE"
+    }],
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.4.1"
+    },
+    "keywords": [
+        "gulp",
+        "slushgenerator",
+        "web",
+        "front-end",
+        "less",
+        "scaffold"
+    ]
+}
